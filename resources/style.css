@@ -1,0 +1,24 @@
+div#searchDiv{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    margin:25px 10px 10px 10px;
+    padding:10px;
+    gap:25px;
+}
+
+div#rem-compDiv{
+    display:flex;
+    box-sizing:border-box;
+    margin:10px 20px 20px 20px;
+    gap:35px;
+}
+div#remainingDiv{
+    flex-shrink:0;
+}
+
+div#completedDiv{
+    flex-shrink:0;
+    font:bold;
+}
