@@ -55,3 +55,6 @@ hA.addEventListener('click',()=>{
         hide.style.display="";
     }
 });
+
+//remainings
+//Click remove to remove a list or checkbox

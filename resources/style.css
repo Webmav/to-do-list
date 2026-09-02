@@ -1,21 +1,41 @@
+body{
+    display:flex;
+}
+
 div#searchDiv{
     display:flex;
     justify-content:center;
     align-items:center;
     box-sizing:border-box;
 
-    margin:30px auto auto auto;
+    margin:30px auto 75px auto;
     gap:25px;
     min-width:275px;
 }
 
 div#rem-compDiv{
-
+    display:flex;
 }
 div#remainingDiv{
 
 }
 
 div#completedDiv{
+    margin-left:150px;
+}
 
+/*
+div{
+    border:2px solid black;
+}  */
+
+#all{
+    width:auto;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto 100px auto;
+}
+ul {
+    margin-left: -45px;
 }
